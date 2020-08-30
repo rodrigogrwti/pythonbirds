@@ -16,3 +16,7 @@ if __name__ == '__main__':
     print(rodrigo.idade)
     for filho in ana.filhos:
         print(filho.nome)
+    del ana.filhos
+    print(rodrigo.__dict__)
+    print(ana.__dict__)
+
